@@ -1,0 +1,115 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto+Condensed';
+
+.body_main {
+    background:rgb(52, 53, 66);
+    animation: fadeIn;
+    animation-duration: 2s;
+}
+.navbar-brand,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+font-family: ‘Roboto Condensed’, sans-serif; /* Гуглфонт вывод */
+}
+.center_it {
+    text-align: center;
+    color: #f5f5f5;
+}
+.back {
+    background:url(source/main_background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.text_footer {
+    color: #E9E7E2;
+}
+.text_header_main {
+    text-align: center;
+
+    font-size: 70px;
+
+    animation: fadeInUp;
+    animation-duration: 2s;
+}
+.text_header {
+    text-align: center;
+    text-shadow: #858689;
+
+    color: #343542;
+
+    animation: fadeInUp;
+    animation-duration: 2s;
+}
+.text_ref {
+    color: #343542;
+
+    animation: fadeInUp;
+    animation-duration: 2s;
+}
+.card {
+    margin: 20px;
+    background: linear-gradient(180deg,#ffffff,rgba(185, 185, 185, 0.671));
+    text-align: center;
+    -webkit-transition: all 0.3s ease;;
+    -moz-transition: all 0.3s ease;;
+    -o-transition: all 0.3s ease;;
+    transition: all 0.3s ease;
+}
+#footer {
+    background: #1b1b22;
+    margin: 0px;
+}
+#footer:hover {
+    box-shadow: 0px 0px black;
+    -webkit-transform: translateX(0px);
+    transform: translateX(0px);
+}
+.card:hover {
+    opacity: 1;
+    box-shadow: 4px 4px 10px black;
+    -webkit-transform: translateX(-3px);
+    transform: translateX(-3px);
+}
+.btn {
+    -webkit-transition: all 0.3s ease;;
+    -moz-transition: all 0.3s ease;;
+    -o-transition: all 0.3s ease;;
+    transition: all 0.3s ease;
+}
+.btn:hover {
+    color: #ffffff;
+    box-shadow: 3px 3px 10px black;
+    -webkit-transform: translateX(-3px);
+    transform: translateX(-3px);
+}
+#back_layout {
+    opacity: 1;
+    size: 100%;
+    padding-top: 7%;
+    background-color: rgba(0, 0, 0, 0.521);
+    box-shadow: 0px 0px 100px black;
+}
+.h5, .h3 {
+    color: #ffffff;
+    text-align: center;
+}	
+.rss_news{
+    padding-top: 8%;
+    animation: fadeIn;
+    animation-duration: 2s;
+}
+.dom text {
+    text-align: left;
+}
+#collapseTarget, #collapsefirst, #collapsesecond, #collapsethird, #collapseforth, #collapsefifth, #collapsesixth, .carousel-item {
+    animation: fadeIn;
+    animation-duration: 2s;
+}
+#pi {
+    width: 20%;
+    height: 20%;
+}

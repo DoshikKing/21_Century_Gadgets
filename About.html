@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Технологии 21-го века</title>
+    <link rel="shortcut icon" href="source/logo.png" type="image/png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script> 
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="script.js" type="text/javascript" rel="javascript" language="javascript"></script>
+</head>
+<!--Навигационное меню-->
+<body class="body_main" onload="javascript: q()">
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-light shadow fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#"><img class="rounded-circle" src="source/logo.png" class="mr-3" alt="..."></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="" id="first-button"><button type="button" class="btn btn-dark" id="first">Домашняя</button></a>
+              </li>
+              <li class="nav-item">
+                <div class="dropdown">
+                    <button style="margin-top: 8px;" class="btn btn-dark dropdown-toggle" type="button" id="second" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Новости
+                    </button>                                   
+                  <div class="dropdown-menu" aria-labelledby="second">
+                    <a class="dropdown-item" id="firstnews" href="">gagadget.com</a>
+                    <a class="dropdown-item" id="secondnews" href="">yandex.ru/news</a>
+                  </div>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="" id="third-button"><button type="button" class="btn btn-dark" id="third">О гаджетах</button>
+                    <span class="sr-only">(current)</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="" id="forth-button"><button type="button" class="btn btn-dark" id="forth">Контакты</button></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+<!--Основоная часть контента сайта-->
+      <div id="content" class="back">
+        <div class="container">
+          <main id="main_content_block" role="main">              
+            <section class="info" id="my-about-div">              
+              <div class="container" id="back_layout"> 
+                <br>                      
+                <h5 class="h3">Что такое гаджет?</h5>
+                <div class="dom text">
+                  <h5 class="h5">                    
+                    Гаджет — небольшое устройство, предназначенное для облегчения и усовершенствования жизни человека.
+                    Гаджеты широко распространены в самых разных сферах: спорт — фитнес-трекеры, смарт-браслеты, спортивные устройства, в том числе и «умная» одежда, гидрокоптеры, смартфоны и так далее.
+                    </h5>
+                    <h5 class="h5">Примеры:</h5>
+                    <div class="row">
+                        <div class="col-sm">
+                            <div class="card" id="card_1" style="width: 18rem;">
+                            <img src="source/smart.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h2 class="text_ref card-title">Smart часы, браслеты</h2>
+                              <p id="interest">
+                                <button class="btn btn-dark" type="button" data-toggle="collapse" data-target="#collapsefirst" aria-expanded="false" aria-controls="collapseTarget">
+                                  Подробнее...
+                                </button>
+                              </p>
+                              <div class="collapse" id="collapsefirst">
+                                <p>Умные часы (англ. smart watch), также Смарт-часы или Часофон — компьютеризированные наручные часы с расширенной функциональностью (кроме стандартного слежения за временем), часто сравнимой с коммуникаторами.
+                                   Первые модели выполняли простые задачи, например, выступали в роли калькулятора, переводчика или игрового устройства.
+                                    Современные умные часы — это носимые компьютеры.</p>
+                              </div>                                                                                    
+                            </div>           
+                            </div>
+                        </div>
+                        <div class="col-sm">
+                            <div class="card" id="card_2" style="width: 18rem;">
+                            <img src="source/phone.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h2 class="text_ref card-title">Смартфоны</h2>
+                                <p id="interest">
+                                  <button class="btn btn-dark" type="button" data-toggle="collapse" data-target="#collapsesecond" aria-expanded="false" aria-controls="collapseTarget">
+                                    Подробнее...
+                                  </button>
+                                </p>
+                                <div class="collapse" id="collapsesecond">
+                                  <p>Смартфо́н (англ. smartphone — умный телефон) — мобильный телефон (современный — как правило, с сенсорным экраном), дополненный функциональностью карманного персонального компьютера. </p>
+                                </div>
+                            </div>           
+                            </div>
+                        </div>
+                        <div class="col-sm">
+                            <div class="card" id="card_3" style="width: 18rem;">
+                            <img src="source/comp.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h2 class="text_ref card-title">Ноутбуки</h2>
+                                <p id="interest">
+                                  <button class="btn btn-dark" type="button" data-toggle="collapse" data-target="#collapsethird" aria-expanded="false" aria-controls="collapseTarget">
+                                    Подробнее...
+                                  </button>
+                                </p>
+                                <div class="collapse" id="collapsethird">
+                                  <p>Ноутбук (англ. notebook — блокнот) — переносной компьютер, в корпусе которого объединены типичные компоненты ПК, включая дисплей, клавиатуру и устройство указания (обычно сенсорная панель или тачпад), а также аккумуляторные батареи. 
+                                    Ноутбуки отличаются небольшими размерами и весом, время автономной работы ноутбуков варьируется в пределах от 2 до 15 часов.
+                                   </p>
+                                </div>
+                            </div>           
+                            </div>
+                        </div>
+                        </div>
+                        <div class="row">
+                        <div class="col-sm">
+                            <div class="card" id="card_1" style="width: 18rem;">
+                            <img src="source/drone.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h2 class="text_ref card-title">Дроны</h2>
+                                <p id="interest">
+                                  <button class="btn btn-dark" type="button" data-toggle="collapse" data-target="#collapseforth" aria-expanded="false" aria-controls="collapseTarget">
+                                    Подробнее...
+                                  </button>
+                                </p>
+                                <div class="collapse" id="collapseforth">
+                                  <p>Дрон — это техническое устройство, устойчиво связанное с беспилотными летательными аппаратами смартфонами. 
+                                    Он способен совершать дистанционно управляемые или автоматические полеты.</p>
+                                </div>
+                            </div>           
+                            </div>
+                        </div>
+                        <div class="col-sm">
+                            <div class="card" id="card_2" style="width: 18rem;">
+                            <img src="source/headphones.webp" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h2 class="text_ref card-title">Аудио устройства</h2>
+                                <p id="interest">
+                                  <button class="btn btn-dark" type="button" data-toggle="collapse" data-target="#collapsefifth" aria-expanded="false" aria-controls="collapseTarget">
+                                    Подробнее...
+                                  </button>
+                                </p>
+                                <div class="collapse" id="collapsefifth">
+                                  <p>Нау́шники — два телефона с оголовьем, предназначенные для подключения к бытовым радиоэлектронным аппаратам. 
+                                    Наушники представляют собой пару небольших по размеру головных телефона или блока наушника, надеваемых на голову или вставляемых прямо в ушные каналы. 
+                                    Наушники часто применяются в быту и в профессиональной деятельности для речевой связи и прослушивания музыки и речи, когда необходима мобильность или звукоизоляция от окружающего пространства.</p>
+                                </div>
+                            </div>           
+                            </div>
+                        </div>
+                        <div class="col-sm">
+                            <div class="card" id="card_3" style="width: 18rem;">
+                            <img src="source/home.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h2 class="text_ref card-title">"Умный дом"</h2>
+                                <p id="interest">
+                                  <button class="btn btn-dark" type="button" data-toggle="collapse" data-target="#collapsesixth" aria-expanded="false" aria-controls="collapseTarget">
+                                    Подробнее...
+                                  </button>
+                                </p>
+                                <div class="collapse" id="collapsesixth">
+                                  <p>Умный дом (англ. smart home) — система домашних устройств, способных выполнять действия и решать определённые повседневные задачи без участия человека.
+                                    Домашняя автоматизация в современных условиях — чрезвычайно гибкая система, которую пользователь конструирует и настраивает самостоятельно в зависимости от собственных потребностей. 
+                                    Это предполагает, что каждый владелец умного дома самостоятельно определяет, какие устройства куда установить и какие задачи они будут исполнять. </p>
+                                </div>
+                            </div>           
+                            </div>
+                        </div>
+                        </div>      
+                    </div>          
+                  <br>  
+                </div>                            
+            </section>
+          </main>
+        </div>
+      </div>
+<!--Футер-->
+      <div class="card"  id="footer">
+        <div class="card-header">
+          <h3 class="text_footer">"Гаджеты 21 века"</h3>
+        </div>
+        <div class="card-body">
+          <h5 class="card-title text_footer">IKBO-10-19. Magin Konstantin</h5>
+          <p class="card-text  text_footer">All rigths reserved.</p>
+        </div>
+      </div>
+      
+</body>
+</html>

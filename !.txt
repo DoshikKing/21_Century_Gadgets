@@ -1,0 +1,5 @@
+rss habr
+https://habr.com/ru/rss/all/all/
+https://habr.com/ru/rss/hub/gadgets/
+google rss
+http://www.coolwebmasters.com/rssfeeds/2580-a-simple-way-to-add-free-news-content-to-your-website.html
